@@ -1,0 +1,3 @@
+[submodule "mmwave_automotive_toolbox_3_3_0.git"]
+	path = mmwave_automotive_toolbox_3_3_0
+	url = https://github.com/opo2000tw/mmwave_automotive_toolbox_3_3_0.git

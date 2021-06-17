@@ -19,7 +19,7 @@ mmwave_sdk_*
 workspace
 
 ### Public Project
-mmwave_automotive_toolbox_*
+# mmwave_automotive_toolbox_*
 mmwave_industrial_toolbox_*
 
 ### TOOL
