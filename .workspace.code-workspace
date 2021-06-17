@@ -1,0 +1,57 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.md": "markdown",
+			"hsiheader.h": "c"
+		},
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/*_org_*.c": true,
+			"**/bios_6_73_01_01": true,
+			"**/dsplib_c64Px_3_4_0_0": true,
+			"dsplib_c64Px_3_4_0_0": true,
+			"**/dsplib_c674x_3_4_0_0": true,
+			"dsplib_c674x_3_4_0_0": true,
+			"**/mathlib_c674x_3_1_2_1": true,
+			"mathlib_c674x_3_1_2_1": true,
+			"**/mmwave_studio_02_01_01_00": true,
+			"mmwave_studio_02_01_01_00": true,
+			"**/ti-cgt-arm_16.9.6.LTS": true,
+			"*.LTS": true,
+			"ti-cgt-arm_16.9.6.LTS": true,
+			"**/*.LTS": true,
+			"**/ti-cgt-c6000_8.3.3": true,
+			"*.3": true,
+			"ti-cgt-c6000_8.3.3": true,
+			"**/*.3": true,
+			"**/tirex-product-tree": true,
+			"tirex-product-tree": true,
+			"**/uniflash_6.2.0": true,
+			"*.0": true,
+			"uniflash_6.2.0": true,
+			"**/*.0": true,
+			"**/xdctools_3_50_08_24_core": true,
+			"xdctools_3_50_08_24_core": true,
+			"**/ccs1030": true,
+			"ccs1030": true,
+			"**/CCSExternalReferences": true,
+			"**/ccs1031": true,
+			"**/.tirex-temp": true,
+			"**/tirex-localserver-3.7.1": true,
+// 
+			"**/docs": true,
+//
+			"**/workspace": true
+		}
+	}
+}
+
