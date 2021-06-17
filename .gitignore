@@ -10,7 +10,7 @@ CCSExternalReferences
 # dsplib_c64Px_3_4_0_0
 # dsplib_c674x_3_4_0_0
 # mathlib_c674x_3_1_2_1
-mmwave_sdk_*
+# mmwave_sdk_*
 # ti-cgt-arm_16.9.6.LTS
 # ti-cgt-c6000_8.3.3
 #xdctools_3_50_08_24_core
