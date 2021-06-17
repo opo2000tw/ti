@@ -1,0 +1,30 @@
+# .
+# ..
+
+### CCS
+ccs*
+CCSExternalReferences
+
+### SDK
+# bios_6_73_01_01
+# dsplib_c64Px_3_4_0_0
+# dsplib_c674x_3_4_0_0
+# mathlib_c674x_3_1_2_1
+mmwave_sdk_*
+# ti-cgt-arm_16.9.6.LTS
+# ti-cgt-c6000_8.3.3
+#xdctools_3_50_08_24_core
+
+### Private Project
+workspace
+
+### Public Project
+mmwave_automotive_toolbox_*
+mmwave_industrial_toolbox_*
+
+### TOOL
+tirex-localserver-*
+tirex-product-tree
+.tirex-temp
+uniflash_*
+
