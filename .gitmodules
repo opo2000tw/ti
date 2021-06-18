@@ -1,9 +1,9 @@
-[submodule "mmwave_automotive_toolbox_3_3_0.git"]
-	path = mmwave_automotive_toolbox_3_3_0
-	url = https://github.com/opo2000tw/mmwave_automotive_toolbox_3_3_0.git
 [submodule "mmwave_sdk_03_05_00_04.git"]
 	path = mmwave_sdk_03_05_00_04
 	url = https://github.com/opo2000tw/mmwave_sdk_03_05_00_04.git
 [submodule "mmwave_industrial_toolbox_4_7_0.git"]
 	path = mmwave_industrial_toolbox_4_7_0
 	url = https://github.com/opo2000tw/mmwave_industrial_toolbox_4_7_0.git
+[submodule "mmwave_automotive_toolbox_3_4_0.git"]
+	path = mmwave_automotive_toolbox_3_4_0
+	url = https://github.com/opo2000tw/mmwave_automotive_toolbox_3_4_0.git
