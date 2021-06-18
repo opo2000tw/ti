@@ -35,12 +35,12 @@ cat README_FIRST_linux
 ```
 
 ```
-./mmwave_sdk_03_05_00_04-Linux-x86-Install.bin 
+./mmwave_sdk_03_05_00_04-Linux-x86-Install.bin
 
 ┌──(opo2000tw㉿DESKTOP-03CNEHA)-[~/Desktop/Desk/New]
-└─$                                                                                                                                                                                           
+└─$
 ----------------------------------------------------------------------------
-Select the components you want to install; clear the components you do not want 
+Select the components you want to install; clear the components you do not want
 to install. Click Next when you are ready to continue.
 
 mmWave SDK and tools [Y/n] :y
@@ -75,7 +75,7 @@ grep kali /etc/passwd
 chsh -s /usr/bin/bash
 ```
 
-Known Issue 
+Known Issue
 
 1. In every VM ccs1031 and xds110 is not stable so testTarget by *.xxml will be fail but you can use command "xdsdfu -e" to test connection
 
@@ -87,7 +87,43 @@ sudo ln -s ~/ti/ccs1031/ccs/ccs_base/common/uscif/xds110/xdsdfu /usr/bin/xdsdfu
 # Driver
 sudo /home/blake/ti/ccs1031/ccs/install_scripts/install_drivers.sh
 
-# Makefile Setting 
+# Makefile Setting
 /home/blake/ti/mmwave_sdk_03_05_00_04/setting.sh
 source /mnt/c/ti/mmwave_sdk_03_05_00_04/packages/scripts/unix/setenv.sh
 source /mnt/c/ti/mmwave_sdk_03_05_00_04/packages/scripts/unix/checkenv.sh
+
+# Language
+```
+https://h.mc4.us/2018/10/09/autostart-fcitx-and-enable-chewing/
+sudo apt-get install fcitx-rime fcitx-chewing
+```
+
+# SFTP server
+```
+https://ithelp.ithome.com.tw/articles/10225850
+sudo apt-get install openssh-server
+sudo systemctl enable ssh.service
+```
+
+# eclipse.ini
+```
+-startup
+plugins/org.eclipse.equinox.launcher_1.5.600.v20191014-2022.jar
+--launcher.library
+plugins/org.eclipse.equinox.launcher.gtk.linux.x86_64_1.1.1100.v20190907-0426
+--launcher.defaultAction
+openFile
+--launcher.appendVmargs
+-vmargs
+-Dosgi.requiredJavaVersion=1.8
+-Dosgi.dataAreaRequiresExplicitInit=true
+-XX:+UseParallelGC
+-Xms4096m
+-Xmx2048m
+-Xmn1024m
+-XX:PermSize=512m
+-XX:MaxPermSize=1024m
+--add-modules=ALL-SYSTEM
+-XX:+UseParallelGC
+
+```
