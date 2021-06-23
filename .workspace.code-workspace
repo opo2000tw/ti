@@ -47,11 +47,24 @@
 			"**/ccs1031": true,
 			"**/.tirex-temp": true,
 			"**/tirex-localserver-3.7.1": true,
-// 
+			//
 			"**/docs": true,
-//
-			"**/workspace": true
+			//
+			"**/workspace": true,
+			//			  // The default character set encoding to use when reading and writing files. This setting can also be configured per language.
+			"files.encoding": "utf8",
+			// The default end of line character.
+			//  - \n: LF
+			//  - \r\n: CRLF
+			//  - auto: Uses operating system specific end of line character.
+			// Configure glob patterns for excluding files and folders. For example, the file Explorer decides which files and folders to show or hide based on this setting. Refer to the `search.exclude` setting to define search specific excludes.
+			"files.exclude": {
+				"**/.git": true,
+				"**/.svn": true,
+				"**/.hg": true,
+				"**/CVS": true,
+				"**/.DS_Store": true
+			}
 		}
 	}
 }
-
