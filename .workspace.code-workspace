@@ -7,7 +7,13 @@
 	"settings": {
 		"files.associations": {
 			"*.md": "markdown",
-			"hsiheader.h": "c"
+			"hsiheader.h": "c",
+			"mmwavelink.h": "c",
+			"cycle_profiler.h": "c",
+			"dpm.h": "c",
+			"soc.h": "c",
+			"memoryp.h": "c",
+			"objectdetection.h": "c"
 		},
 		"files.exclude": {
 			"**/.git": true,
@@ -48,7 +54,7 @@
 			"**/.tirex-temp": true,
 			"**/tirex-localserver-3.7.1": true,
 			//
-			"**/docs": true,
+			// "**/docs": true,
 			//
 			"**/workspace": true,
 			//			  // The default character set encoding to use when reading and writing files. This setting can also be configured per language.
