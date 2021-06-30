@@ -13,7 +13,10 @@
 			"dpm.h": "c",
 			"soc.h": "c",
 			"memoryp.h": "c",
-			"objectdetection.h": "c"
+			"objectdetection.h": "c",
+			"sys_common.h": "c",
+			"adcbuf.h": "c",
+			"mmwdemo_adcconfig.h": "c"
 		},
 		"files.exclude": {
 			"**/.git": true,
@@ -23,6 +26,7 @@
 			"**/.DS_Store": true,
 			"**/*_org_*.c": true,
 			"**/bios_6_73_01_01": true,
+			"bios_6_73_01_01": true,
 			"**/dsplib_c64Px_3_4_0_0": true,
 			"dsplib_c64Px_3_4_0_0": true,
 			"**/dsplib_c674x_3_4_0_0": true,
@@ -53,24 +57,56 @@
 			"**/ccs1031": true,
 			"**/.tirex-temp": true,
 			"**/tirex-localserver-3.7.1": true,
+			"**/*.css": true,
+			"**/*.xml": true,
+			"**/.metadata": true,
+		},
+		"search.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/*_org_*.c": true,
+			"**/bios_6_73_01_01": true,
+			"bios_6_73_01_01": true,
+			"**/dsplib_c64Px_3_4_0_0": true,
+			"dsplib_c64Px_3_4_0_0": true,
+			"**/dsplib_c674x_3_4_0_0": true,
+			"dsplib_c674x_3_4_0_0": true,
+			"**/mathlib_c674x_3_1_2_1": true,
+			"mathlib_c674x_3_1_2_1": true,
+			"**/mmwave_studio_02_01_01_00": true,
+			"mmwave_studio_02_01_01_00": true,
+			"**/ti-cgt-arm_16.9.6.LTS": true,
+			"*.LTS": true,
+			"ti-cgt-arm_16.9.6.LTS": true,
+			"**/*.LTS": true,
+			"**/ti-cgt-c6000_8.3.3": true,
+			"*.3": true,
+			"ti-cgt-c6000_8.3.3": true,
+			"**/*.3": true,
+			"**/tirex-product-tree": true,
+			"tirex-product-tree": true,
+			"**/uniflash_6.2.0": true,
+			"*.0": true,
+			"uniflash_6.2.0": true,
+			"**/*.0": true,
+			"**/xdctools_3_50_08_24_core": true,
+			"xdctools_3_50_08_24_core": true,
+			"**/ccs1030": true,
+			"ccs1030": true,
+			"**/CCSExternalReferences": true,
+			"**/ccs1031": true,
+			"**/.tirex-temp": true,
+			"**/tirex-localserver-3.7.1": true,
+			"**/*.css": true,
+			"**/*.xml": true,
+			"**/.metadata":true,
 			//
-			// "**/docs": true,
-			//
-			"**/workspace": true,
-			//			  // The default character set encoding to use when reading and writing files. This setting can also be configured per language.
-			"files.encoding": "utf8",
-			// The default end of line character.
-			//  - \n: LF
-			//  - \r\n: CRLF
-			//  - auto: Uses operating system specific end of line character.
-			// Configure glob patterns for excluding files and folders. For example, the file Explorer decides which files and folders to show or hide based on this setting. Refer to the `search.exclude` setting to define search specific excludes.
-			"files.exclude": {
-				"**/.git": true,
-				"**/.svn": true,
-				"**/.hg": true,
-				"**/CVS": true,
-				"**/.DS_Store": true
-			}
-		}
+			"**/*.obj": true
+		},
+		"explorerExclude.backup": null
+
 	}
 }
