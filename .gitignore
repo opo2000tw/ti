@@ -13,7 +13,7 @@ CCSExternalReferences
 # mmwave_sdk_*
 # ti-cgt-arm_16.9.6.LTS
 # ti-cgt-c6000_8.3.3
-#xdctools_3_50_08_24_core
+# xdctools_3_50_08_24_core
 
 ### Private Project
 workspace
@@ -30,3 +30,8 @@ uniflash_*
 
 ###
 rollback*
+
+###
+GPATH
+GRTAGS
+GTAGS
