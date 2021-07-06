@@ -16,7 +16,7 @@ CCSExternalReferences
 # xdctools_3_50_08_24_core
 
 ### Private Project
-workspace
+workspace*
 
 ### Public Project
 # mmwave_automotive_toolbox_*
