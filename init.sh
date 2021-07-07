@@ -43,9 +43,9 @@ cp ./hooks/* $result/hooks/
 echo -e "cp ./hooks/* $result/hooks/"
 
 ### source *.sh
-# echo -e "$SDK_PATH/packages/scripts/unix"
-# cd $SDK_PATH/packages/scripts/unix
-# cat ./setenv.sh
-# source ./setenv.sh
-# echo -e "cd $PWD"
-# cd $PWD
+echo -e "$SDK_PATH/packages/scripts/unix"
+cd $SDK_PATH/packages/scripts/unix
+cat ./setenv.sh
+source ./setenv.sh
+echo -e "cd $PWD"
+cd $PWD
