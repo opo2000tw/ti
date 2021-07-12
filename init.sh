@@ -6,6 +6,7 @@ SDK=mmwave_sdk*
 AUTO=mmwave_automotive*
 INDU=mmwave_industrial_*
 PWD=`pwd`
+PWD_PATH=$PWD
 
 # built file without dictionary
 shopt -s extglob
@@ -45,7 +46,8 @@ echo -e "cp ./hooks/* $result/hooks/"
 ### source *.sh
 echo -e "$SDK_PATH/packages/scripts/unix"
 cd $SDK_PATH/packages/scripts/unix
-cat ./setenv.sh
+#cat ./setenv.sh
 source ./setenv.sh
-echo -e "cd $PWD"
-cd $PWD
+echo -e "------"
+echo -e "cd $PWD_PATH"
+cd $PWD_PATH
